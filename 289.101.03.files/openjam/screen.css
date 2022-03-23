@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+background-color: #82DDB5;
+background-image: url('img/illustration.gif'), url('img/texture.jpg');
+background-position: center 280px, left top;
+background-repeat: no-repeat, repeat-x;
+background-size: 800px, auto;
+font-family: 'Quicksand', sans-serif;
+margin: 0;   
+}
+
+
+#nav {
+ background-color: #67BB99;
+ border-bottom: 2px dashed #487;
+ color: white;
+ font-weight: 700;
+ text-align: center;
+ padding: 20px;
+ word-spacing: 20px;
+}
+
+
+#header {
+ text-align: center;
+}
+    
+ 
+#logo {
+ max-width: 360px;
+ width: 100%;
+ padding-top: 40px; 
+}
+
+ 
+#description, #date {
+ max-width: 220px;
+ width: 100%;
+}
+
+
+.register_btn {
+ background-color: #E43;
+ border: 2px dashed #A43;
+ border-radius: 2em;
+ color: white;
+ cursor: pointer;
+ display: inline-block;
+ font-weight:700;
+ margin-top: 25px;
+ padding: 15px 30px;
+}
+
+
+#what h1 {
+  margin: 0px;
+  padding: 0px;
+  position: relative; 
+  top: 40px;
+  font-weight: bolder;
+  font-size: 36px;
+  text-align: center;
+  color: darkcyan;
+}
+
+.container {
+  border: none;  
+  width: 100%;
+  height: 600px;
+  background-color: #C7EEDD;
+  opacity: 0.9;
+  position:relative;
+  top: 360px;    
+}
+ 
+#what h1 + p {
+color: darkcyan;
+font-size: 19.5px;    
+font-weight: 501;      
+}
+
+#what p {
+  margin: 0px;
+  padding: 0px;
+  position: relative;  
+  top: 50px;
+  text-align: left; 
+  padding: 10px;
+  padding-left: 500px;   
+  padding-right: 500px;   
+  font-weight: 501;
+  color: darkcyan;
+  font-size: 17px;    
+}
+
+#what h2 {
+  margin: 0px;
+  padding: 0px;
+  position: relative; 
+  top: 80px;
+  color: darkcyan;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;  
+}
+
+#massey {
+ transform: scale(15%);
+ position: relative;   
+ top: -40px;    
+ position: relative;
+ left : -120px;       
+}
+  
+#oracle {    
+ transform: scale(15%);
+ position: relative;   
+ top: -355px;    
+ position: relative;
+ right : -165px;       
+}
+  
+
+
+#why {
+ text-align: center;
+ color: darkcyan;    
+}
+ 
+.container2 {
+  border: none;   
+  width: 100%;
+  height: 440px;
+  background-color: #B6EAD0;
+  position:relative;
+  top: 359px;    
+}
+
+#why h1 {
+  margin: 0px;
+  padding: 0px;
+  position: relative; 
+  top: 35px; 
+  font-weight: bolder;
+  font-size: 36px;
+  word-spacing: 1px;
+}
+
+#why p {
+  margin: 0px;
+  position: relative; 
+  top: 70px;
+  text-align: left;
+  padding: 5px; 
+  padding-left: 500px;
+  padding-right: 500px; 
+  font-size: 18px;
+  font-weight: bolder;
+  word-spacing: 1px;
+}
+
+#where { 
+  text-align: center;
+  color: #BB4488;    
+}
+ 
+.container3 {
+  border: red;   
+  width: 100%;
+  height: 680px;
+  background-color: none;
+  position:relative;
+  top: 330px;
+}
+
+.map {   
+  width: 100%;    
+  height: 680%; 
+  transform: scaleX(113%); 
+  position:relative;
+  top: -177px;
+}   
+
+#where h1 {
+  margin: 0px;
+  padding: 80px;
+  position: relative; 
+  top: 55px; 
+  z-index: 1;
+  font-size: 36px;
+  font-weight: bolder;      
+}
+
+#where p {
+  margin: 0px;
+  padding-right: 540px;
+  float: right;
+  position:relative;
+  top: -4615px;
+  color: #BB4488;
+  font-weight: bolder; 
+}
+
+
+
+#when {
+  text-align: center;
+  color: white;    
+}  
+
+.container4 {
+  border: none;   
+  width: 100%;
+  height: 800px;
+  background-color: #439998;
+  position:relative;
+  top: 330px;
+}
+
+.container4 img {
+  position:relative; 
+  top: -120px;   
+}
+
+#when h1 {
+  margin: 0px;
+  padding: 0px;
+  position: relative; 
+  top:60px;
+  font-size: 34px;
+  font-weight: bolder;      
+}
+
+#when h2 { 
+  text-align: center;
+  color: white;
+  margin: 0px;
+  position: relative; 
+  top: -720px;
+  border-bottom: 2px dashed white;      
+  padding-bottom: 50px;
+  padding-right: 500px;
+  padding-left: 500px; 
+  font-weight: bolder;
+}
+    
+.Friday {
+  color: white;
+  padding-left: 500px;
+  padding-right: 500px;
+  position: relative; 
+  top: -720px;    
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px dashed white;
+  font-size: 18px; 
+  font-weight: bolder;
+}
+          
+.Friday ul li {
+  color: white;
+  text-align: left; 
+  list-style-position: inside;  
+  font-size: 16px; 
+  font-weight: 550;
+} 
+    
+.Friday + h3 {
+  color: white;
+  padding-left: 500px;
+  padding-right: 500px;
+  position: relative; 
+  top: -725px;    
+  text-align: center;
+  padding-bottom: 100px;  
+  border-bottom: 2px dashed white;
+  font-size: 20px; 
+  font-weight: bolder;    
+}
+
+.Friday ~ ul li {
+  color: white;
+  text-align: left;
+  position: relative; 
+  top: -825px;  
+  padding-left: 500px;
+  padding-right: 500px;
+  list-style-position: inside; 
+  font-size: 16px; 
+  font-weight: bolder;     
+}
+
+.Sunday {
+  color: white;
+  padding-left: 500px;
+  padding-right: 500px;
+  position: relative; 
+  top: -785px;    
+  text-align: center;
+  padding-bottom: 120px;
+  font-size: 18px;
+  font-weight: bolder;    
+}
+   
+.Sunday ~ ul li {
+  color: white;
+  position: relative; 
+  top: -928px;        
+}   
+
+
+
+#who h1 {
+  text-align: center;
+  color: darkcyan; 
+  position: relative; 
+  top: 30px;  
+  font-size: 34px;
+  font-weight: bolder;  
+}
+
+.container5 {  
+  border: none;   
+  width: 100%;
+  height: 360px;
+  background-color: whitesmoke;
+  position:relative;
+  top: 277px;    
+}
+
+#who h1 ~ p {
+ font-size: 20px;     
+ color: darkcyan;
+ word-spacing: .5px;
+ font-weight: 501;   
+}
+
+#who p { 
+  color: darkcyan;
+  margin: 0px;
+  position: relative; 
+  top: 35px;
+  text-align: left;
+  padding: 0px; 
+  padding-left: 500px;
+  padding-right: 500px; 
+  font-size: 17px; 
+  font-weight: 501;    
+}
+
+
+#footer img {  
+  background-image: url(img/texture.jpg);
+}
+
+#twitter {    
+  transform: scale(5%);
+  position: relative;   
+  top: -1470px;    
+  position: relative;
+  left : -120px;        
+}
+    
+#facebook {   
+  transform: scale(5%);
+  position: relative;   
+  top: -3315px;    
+}
+
+#icon-itch {   
+  transform: scale(5%);
+  position: relative;   
+  top: -5220px;    
+  position: relative;
+  right : -120px;        
+} 
+
+
+
+ 
+    
