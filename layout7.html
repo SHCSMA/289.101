@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Layout 7</title>
+    
+<style>
+        
+div {
+   outline: 1px solid black;
+   }
+    
+#container {
+    margin: auto;
+    max-width: 800px;
+    display: grid;
+    } 
+   
+#blue {
+    background-color: blue;
+    height : 80px;  
+    padding: 20px;
+    display: grid; 
+    grid-template-columns: 25% 75%;  
+    }
+    
+.yellow {
+    background-color: yellow;
+    margin : 10px;    
+    }
+
+    
+#green {
+    background-color: lime;
+    height: 500px;
+    padding: 20px;
+    }
+
+    
+#red {
+    background-color: red;
+    display: grid;
+    height: 400px;
+    padding: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    }       
+
+.yellow1 {
+    background-color: yellow;
+    margin : 10px;  
+    grid-column: 1 / span 3; grid-row: 1; 
+    height : 120px;
+    }    
+    
+.yellow2 {   
+    background-color: yellow;
+    margin : 10px;     
+    height : 240px;
+    }
+  
+    
+#blue2 {
+    background-color: blue;
+    display: grid; 
+    height: 750px;
+    padding: 20px;  
+    grid-template-rows:    repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);    
+    }   
+     
+.yellow3 {
+    background-color: yellow;
+    margin : 10px;     
+    grid-column: 1 / span 4; grid-row: 1; 
+    height : 100px;  
+    }  
+
+.yellow4 {
+    margin : 10px;    
+    background-color: yellow;
+    padding-bottom: 20px;  
+    height: 170px;   
+    }
+ 
+    
+#green2 {
+    background-color: lime;
+    display: grid;
+    height: 580px;
+    padding: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    }       
+    
+   .yellow5 {
+    background-color: yellow;
+    margin : 10px;  
+    grid-column: 1 / span 3; grid-row: 1; 
+    height : 140px;
+    }     
+  
+    .yellow6 {    
+    background-color: yellow;
+    margin : 10px;     
+    height : 400px;
+    }    
+     
+    
+#red2 {
+    background-color: red;
+    display: grid;    
+    height: 500px; 
+    padding: 20px;    
+    grid-template-columns: repeat(2, 1fr);   
+    grid-template-rows: repeat(2, 1fr);    
+    grid-template-columns: 70% 30%;    
+    }  
+    
+.yellow7 {   
+    background-color: yellow;
+    margin : 10px;  
+    grid-column: 1 / span 2; grid-row: 1; 
+    height : 80px;   
+    }
+    
+.yellow8 {    
+    background-color: yellow;
+    margin : 10px;      
+    height: 380px;         
+    }
+    
+.yellow9 {
+    background-color: yellow;
+    margin : 10px;      
+    height: 190px;   
+    }
+     
+    
+#blue3 {
+   background-color: blue;
+   height : 100px;      
+   }
+    
+    
+</style>
+</head>
+   
+      
+<body>
+    
+<div id="container">
+<div id="blue">
+ <div class="yellow"></div> 
+ <div class="yellow"></div>
+</div>   
+<div id="green"></div>
+<div id="red">          
+ <div class="yellow1"></div>
+ <div class="yellow2"></div>
+ <div class="yellow2"></div>   
+ <div class="yellow2"></div>  
+</div>    
+<div id="blue2">
+ <div class="yellow3"></div>  
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>   
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>   
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>
+ <div class="yellow4"></div>   
+ <div class="yellow4"></div>  
+ <div class="yellow4"></div> 
+</div>    
+<div id="green2">   
+ <div class="yellow5"></div>
+ <div class="yellow6"></div>
+ <div class="yellow6"></div>   
+ <div class="yellow6"></div>   
+</div>
+<div id="red2"> 
+ <div class="yellow7"></div>  
+ <div class="yellow8"></div>
+ <div class="yellow9"></div>
+</div>   
+<div id="blue3"></div>        
+</div>
+       
+</body>
+</html   
